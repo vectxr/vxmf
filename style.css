@@ -6,13 +6,13 @@ font-family: 'Prompt', sans-serif; */
 
 @font-face{
   font-family: "Game";
-  src: url('fonts/Game Of Squids.ttf');
+  src: url('Game Of Squids.ttf');
   font-weight: normal;
   font-style: normal;
 } 
 @font-face{
   font-family: "8-bit";
-  src: url('fonts/8-bit-pusab.ttf');
+  src: url('8-bit-pusab.ttf');
   font-weight: normal;
   font-style: normal;
 } 
