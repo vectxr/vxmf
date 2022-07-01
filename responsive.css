@@ -1,4 +1,7 @@
 @media (max-width: 920px) {
+    .head-nav{
+      justify-content: center;
+    }
     .nav{
       font-size: 10px;
     }
