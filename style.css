@@ -1,0 +1,275 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&family=Prompt:wght@600&display=swap');
+
+/* font-family: 'Press Start 2P', cursive;
+font-family: 'Prompt', sans-serif; */
+
+@font-face{
+  font-family: "Game";
+  src: url('fonts/Game Of Squids.ttf');
+  font-weight: normal;
+  font-style: normal;
+} 
+@font-face{
+  font-family: "8-bit";
+  src: url('fonts/8-bit-pusab.ttf');
+  font-weight: normal;
+  font-style: normal;
+} 
+
+/* Título — Prompt/8-bit/Game */
+
+
+
+*{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    font-family: "Prompt";
+  }
+  
+  /* Começo da Header */
+  header{
+    background-color: red;
+    box-shadow: 0px 4px 3px black;
+  }
+  
+  .head-title{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: ;
+    padding-top: 10px;
+    font-family: "Game";
+    font-size: 60px;
+  }
+  
+  .head-title::before{
+    content: "";
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+  }
+  
+  .head-nav{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    
+    background-color: ;
+    font-size: 20px;
+  }
+  
+  .nav{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: ;
+    color: black;
+    padding: 5px 20px 5px 2px;
+    font-family: '8-bit', sans-serif;
+    font-size: 10px;
+    cursor: pointer;
+    transition: .5s;
+  }
+  
+  .nav:hover{
+    letter-spacing: 2px;
+    border-left: 2px solid black;
+  }
+  
+  .icon{
+    padding-right: 4px;
+  }
+  
+  
+  
+  
+  
+  /* Começo do Conteúdo Principal */
+  .p1{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    text-align: center;
+    
+    background-color: ;
+    padding: 20px;
+  }
+  
+  .p1-content{
+    display: flex;
+    flex-direction: column;
+    
+    background-color: ;
+    width: 50%;
+    
+  }
+  
+  .p1-title{
+    font-family: "8-bit";
+    font-size: 60px;
+    border-bottom: 4px solid black;
+  }
+  
+  .p1-text{
+    text-align: justify;
+    width: 90%;
+    font-family: '8-bit', sans-serif;
+    padding-top: 20px;
+  }
+  
+  .btn-link{
+  width: 160px;
+  margin: 10px 0px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-family: "8-bit";
+  font-size: 12px;
+  color: black;
+  background-color: red;
+  border-top: 2px solid black;
+  border-left: 2px solid black;
+  box-shadow: 4px 4px 1px black;
+  transition: .5s;
+  }
+  
+  .btn-link:hover{
+    letter-spacing: 2px;
+  }
+  
+  .logo{
+    width: 40%;
+    height: 40%;
+    border: 4px solid black;
+    border-radius: 50%;
+  }
+  
+  
+  
+  
+  
+  
+  /* Página Secundária */
+  .p2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: ;
+    padding: 10px 30px;
+    margin-top: 100px;
+  }
+  
+  .p2-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: ;
+  }
+  
+  .p2-title{
+    font-family: "Game";
+    font-size: 70px;
+  }
+  
+  .p2-text{
+    text-align: justify;
+    text-indent: 50px;
+    width: 90%;
+    font-size: 28px;
+  }
+  
+  .foto-telegram{
+    width: 40%;
+    height: 100%;
+    border: 4px solid black;
+  }
+  
+  .btn-link2{
+    width: 85%;
+    margin-bottom: 10px;
+    padding: 20px;
+    text-align: center;
+    text-decoration: none;
+    font-family: "8-bit";
+    font-size: 15px;
+    background-color: red;
+    color: black;
+    border-top: 2px solid black;
+    border-left: 2px solid black;
+    box-shadow: 4px 4px 1px black;
+    transition: .5s;
+  }
+  
+  .btn-link2:hover{
+    letter-spacing: 2px;
+  }
+  
+  
+  
+  
+  /* Página Secundária */
+  .p3{
+    background-color: ;
+    margin-top: 100px;
+    padding: 20px;
+  }
+  
+  .p3-content{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: justify;
+    
+    background-color: ;
+  }
+  
+  .p3-title{
+    font-size: 70px;
+    font-family: "Game";
+  }
+  
+  .p3-text1{
+    font-size: 30px;
+    text-indent: 50px;
+  }
+  
+  .p3-text2{
+    width: 100%;
+    height: 20%;
+    font-size: 15px;
+    margin: 20px 0px;
+  }
+  
+  
+  
+  
+  
+  /* Rodapé */
+  .rodape{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
+    height: 40px;
+    background-color: ;
+  }
+  
+  .r-content{
+    padding-right: 10px;
+  }
+  
+ 
+  
+  
+  
+  
+  
+  
